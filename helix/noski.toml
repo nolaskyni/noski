@@ -1,0 +1,131 @@
+attribute = "pale-purple"
+
+type = "light-orange"
+"type.builtin" = "orange"
+
+constructor = { fg = "pale-green", modifiers = ["bold"] }
+
+constant = "cyan"
+# This might be changed to another color.
+"constant.character.escape" = "red"
+"constant.numeric" = "pale-magenta"
+
+string = "light-cyan"
+
+comment = "gray"
+
+variable = "white"
+"variable.builtin" = "pale-green"
+
+label = "light-purple"
+
+punctuation = "white"
+"punctuation.delimiter" = "light-gray"
+
+keyword = "orange"
+
+operator = "light-gray"
+
+function = { fg = "pale-purple", modifiers = ["bold"] }
+
+tag = "cyan"
+
+namespace = { fg = "white", modifiers = ["bold"] }
+
+special = "light-purple"
+
+"markup.heading" = { fg = "light-purple", modifiers = ["bold"] }
+# TODO: Use a separate color for this.
+"markup.list" = "white"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "cyan", underline = { style = "line" } }
+"markup.link.text" = "light-cyan"
+"markup.quote" = "pale-gray"
+"markup.raw" = "white"
+
+"diff.plus" = "light-green"
+"diff.minus" = "light-red"
+"diff.delta" = "light-purple"
+
+"ui.background" = { bg = "black" }
+"ui.background.separator" = "gray"
+
+"ui.cursor" = { fg = "white", bg = "dark-gray" }
+"ui.cursor.match" = { underline = { style = "line" } }
+"ui.cursor.primary.insert" = { fg = "black", bg = "orange" }
+"ui.cursor.primary.select" = { fg = "black", bg = "cyan" }
+
+"ui.debug.breakpoint" = "red"
+"ui.debug.active" = "red"
+
+"ui.gutter.selected" = { bg = "deep-gray" }
+
+"ui.linenr" = "gray"
+"ui.linenr.selected" = { fg = "white", modifiers = ["bold"] }
+
+"ui.statusline" = { bg = "deep-gray" }
+"ui.statusline.inactive" = { fg = "gray", bg = "black" }
+
+"ui.popup" = { bg = "deep-gray" }
+
+"ui.window" = "dark-gray"
+
+"ui.help" = { bg = "deep-gray" }
+
+"ui.text" = "white"
+"ui.text.directory" = { fg = "cyan", underline = { style = "line" } }
+
+"ui.virtual.ruler" = "dark-gray"
+"ui.virtual.whitespace" = "deep-gray"
+"ui.virtual.indent-guide" = "dark-gray"
+"ui.virtual.inlay-hint" = "light-purple"
+
+"ui.menu" = { bg = "deep-gray" }
+"ui.menu.selected" = { fg = "black", bg = "pale-cyan" }
+
+"ui.selection" = { fg = "black", bg = "pale-cyan" }
+
+warning = "light-yellow"
+error = "light-red"
+info = "pale-magenta"
+hint = "light-purple"
+
+"diagnostic.hint" = { underline = { color = "light-purple", style = "curl" } }
+"diagnostic.info" = { underline = { color = "pale-magenta", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "light-yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "light-red", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+[palette]
+black = "#0d0d0d"
+white = "#f2f2f2"
+
+red = "#f26161"
+light-red = "#f29191"
+
+light-green = "#91f2a1"
+pale-green = "#c2f2ca"
+
+light-yellow = "#f2d291"
+
+pale-magenta = "#f2c2f2"
+
+cyan = "#61c2f2"
+light-cyan = "#91d2f2"
+pale-cyan = "#c2cef2"
+
+deep-gray = "#1a1a1a"
+dark-gray = "#404040"
+gray = "#737373"
+light-gray = "#a6a6a6"
+pale-gray = "#bfbfbf"
+
+orange = "#f29d61"
+light-orange = "#f2b991"
+pale-orange = "#f2d6c2"
+
+light-purple = "#c291f2"
+pale-purple = "#dac2f2"
