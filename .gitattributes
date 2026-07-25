@@ -1,0 +1,6 @@
+# Classify the Ghostty-specific color theme as an INI file and make it
+# detectable by Linguist.
+ghostty/noski linguist-language=ini linguist-detectable
+
+# Allow for the Helix-specific color theme to be detected by Linguist.
+helix/noski.toml linguist-detectable
